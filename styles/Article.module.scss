@@ -1,0 +1,55 @@
+.articleContainer{
+  width: 800px;
+  margin: 1rem 0;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  
+
+  .image{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .userContainer{
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+
+    .userPhoto{
+      height: 3rem;
+      border-radius: 50%;
+    }
+
+    .user{
+      font-weight: 600;
+      padding-left: 1rem;
+    }
+
+  }
+
+  .title{
+    padding-left: 1rem;
+    font-size: 1.8em;
+  }
+
+  
+  .tag{
+    padding: .2rem;
+    padding-left: 1rem;
+  }
+
+  .reactions{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    .reaction{
+      padding: 0 .5rem;
+    }
+  }
+
+
+}

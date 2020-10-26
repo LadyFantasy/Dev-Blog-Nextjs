@@ -1,0 +1,62 @@
+.back{
+  border: 1px solid rgb(175, 175, 175);
+  font-size: 1.2em;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: inherit;
+  cursor: pointer;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 15px;
+  overflow: hidden;
+
+  .image {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .textContainer {
+    padding: 1rem 1.5rem;
+
+    .title {
+      font-size: 2em;
+      margin-bottom: 1rem;
+    }
+
+    .userDate {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+      .userImg {
+        height: 4rem;
+        border-radius: 50%;
+      }
+
+      .user {
+        font-weight: 600;
+        padding-left: 0.3rem;
+      }
+
+      .date {
+        padding-left: 2rem;
+        color: rgb(138, 138, 138);
+      }
+    }
+
+    .tag {
+      padding: 0.3rem;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+
+    .reactions {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
