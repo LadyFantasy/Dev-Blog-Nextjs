@@ -8,12 +8,13 @@
   
 
   .image{
-    height: 25rem;
+    height: 20rem;
     width: 100%;
     object-fit: cover;
   }
 
   .userContainer{
+    margin-top: .5rem;
     padding-left: 1rem;
     display: flex;
     align-items: center;
